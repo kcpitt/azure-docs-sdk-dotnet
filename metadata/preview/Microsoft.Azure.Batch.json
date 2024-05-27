@@ -1,0 +1,14 @@
+{
+  "Name": "Microsoft.Azure.Batch",
+  "Version": "16.3.0-alpha.20240527.1",
+  "DevVersion": "16.3.0-alpha.20240527.1",
+  "DirectoryPath": "sdk/batch/Microsoft.Azure.Batch",
+  "ServiceDirectory": "batch",
+  "ReadMePath": "sdk/batch/Microsoft.Azure.Batch/README.md",
+  "ChangeLogPath": "sdk/batch/Microsoft.Azure.Batch/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "data",
+  "IsNewSdk": false,
+  "ArtifactName": "Microsoft.Azure.Batch",
+  "ReleaseStatus": "Unreleased"
+}
