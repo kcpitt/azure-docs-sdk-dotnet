@@ -585,6 +585,9 @@
       - Azure.AI.Vision.Advanced
       - Azure.AI.Vision.Common
       - Azure.AI.Vision.Common.Diagnostics.Logging
+    - name: Face
+      href: ~/api/overview/azure/{moniker}/ai.vision.face-readme.md
+      children: []
     - name: Image Analysis
       href: ~/api/overview/azure/{moniker}/ai.vision.imageanalysis-readme.md
       children:
@@ -1665,6 +1668,9 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.processor-readme.md
       children:
       - Microsoft.Azure.EventHubs.Processor
+    - name: Event Hubs - Service Fabric Processor
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.servicefabricprocessor-readme.md
+      children: []
     - name: Management
       items:
       - name: Resource Management - Event Hubs
@@ -1728,13 +1734,6 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.functions.worker.extensions.webpubsub-readme.md
       children:
       - Microsoft.Azure.Functions.Worker
-  - name: Face
-    href: ~/api/overview/azure/{moniker}/face.md
-    landingPageType: Service
-    items:
-    - name: Face
-      href: ~/api/overview/azure/{moniker}/ai.vision.face-readme.md
-      children: []
   - name: FarmBeats
     href: ~/api/overview/azure/{moniker}/farmbeats.md
     landingPageType: Service
