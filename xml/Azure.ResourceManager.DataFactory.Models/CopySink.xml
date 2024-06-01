@@ -1,33 +1,30 @@
 <Type Name="CopySink" FullName="Azure.ResourceManager.DataFactory.Models.CopySink">
-  <TypeSignature Language="C#" Value="public abstract class CopySink : System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DataFactory.Models.CopySink&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DataFactory.Models.CopySink&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CopySink extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.DataFactory.Models.CopySink&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.DataFactory.Models.CopySink&gt;" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public abstract class CopySink : System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DataFactory.Models.CopySink&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DataFactory.Models.CopySink&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CopySink extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.DataFactory.Models.CopySink&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.DataFactory.Models.CopySink&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.DataFactory.Models.CopySink" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CopySink&#xA;Implements IJsonModel(Of CopySink), IPersistableModel(Of CopySink)" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type CopySink = class&#xA;    interface IJsonModel&lt;CopySink&gt;&#xA;    interface IPersistableModel&lt;CopySink&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public abstract class CopySink" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CopySink extends System.Object" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CopySink" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type CopySink = class" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CopySink&#xA;Implements IJsonModel(Of CopySink), IPersistableModel(Of CopySink)" />
+  <TypeSignature Language="F#" Value="type CopySink = class&#xA;    interface IJsonModel&lt;CopySink&gt;&#xA;    interface IPersistableModel&lt;CopySink&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DataFactory.Models.CopySink&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DataFactory.Models.CopySink&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="azure-dotnet">
+    <Attribute>
       <AttributeName Language="C#">[System.ClientModel.Primitives.PersistableModelProxy(typeof(Azure.ResourceManager.DataFactory.Models.UnknownCopySink))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ClientModel.Primitives.PersistableModelProxy(typeof(Azure.ResourceManager.DataFactory.Models.UnknownCopySink))&gt;]</AttributeName>
     </Attribute>
@@ -36,7 +33,7 @@
     <summary>
             A copy activity sink.
             Please note <see cref="T:Azure.ResourceManager.DataFactory.Models.CopySink" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
-            The available derived classes include <see cref="T:Azure.ResourceManager.DataFactory.Models.AvroSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureBlobFSSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureDataExplorerSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureDataLakeStoreSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureDatabricksDeltaLakeSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureMySqlSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzurePostgreSqlSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureQueueSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureSearchIndexSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureSqlSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureTableSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.BinarySink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DataFactoryBlobSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.CommonDataServiceForAppsSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.CosmosDBMongoDBApiSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.CosmosDBSqlApiSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DelimitedTextSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DocumentDBCollectionSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DynamicsCrmSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DynamicsSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.FileSystemSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.InformixSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.JsonSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.LakeHouseTableSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.MicrosoftAccessSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.MongoDBAtlasSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.MongoDBV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.OdbcSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.OracleSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.OrcSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.ParquetSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.RestSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceServiceCloudSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceServiceCloudV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SapCloudForCustomerSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SnowflakeSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SnowflakeV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlDWSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlMISink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlServerSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlSink" /> and <see cref="T:Azure.ResourceManager.DataFactory.Models.WarehouseSink" />.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataFactory.Models.AvroSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureBlobFSSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureDatabricksDeltaLakeSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureDataExplorerSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureDataLakeStoreSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureMySqlSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzurePostgreSqlSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureQueueSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureSearchIndexSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureSqlSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.AzureTableSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.BinarySink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DataFactoryBlobSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.CommonDataServiceForAppsSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.CosmosDBMongoDBApiSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.CosmosDBSqlApiSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DelimitedTextSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DocumentDBCollectionSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DynamicsCrmSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.DynamicsSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.FileSystemSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.InformixSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.JsonSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.LakeHouseTableSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.MicrosoftAccessSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.MongoDBAtlasSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.MongoDBV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.OdbcSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.OracleSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.OrcSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.ParquetSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.RestSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceServiceCloudSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceServiceCloudV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SalesforceV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SapCloudForCustomerSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SnowflakeSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SnowflakeV2Sink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlDWSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlMISink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlServerSink" />, <see cref="T:Azure.ResourceManager.DataFactory.Models.SqlSink" /> and <see cref="T:Azure.ResourceManager.DataFactory.Models.WarehouseSink" />.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -50,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -67,6 +65,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.BinaryData&gt;</ReturnType>
@@ -95,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.Boolean&gt;</ReturnType>
@@ -115,6 +115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.Int32&gt;</ReturnType>
@@ -135,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.Int32&gt;</ReturnType>
@@ -155,6 +157,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -178,13 +181,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataFactory.Models.CopySink</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
@@ -210,13 +214,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
@@ -241,13 +246,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataFactory.Models.CopySink</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
@@ -273,12 +279,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">To be added.</param>
@@ -302,12 +309,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
@@ -329,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.Int32&gt;</ReturnType>
@@ -349,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>

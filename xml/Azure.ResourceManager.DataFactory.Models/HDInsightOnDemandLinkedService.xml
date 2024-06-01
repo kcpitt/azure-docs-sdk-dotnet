@@ -1,28 +1,25 @@
 <Type Name="HDInsightOnDemandLinkedService" FullName="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService">
-  <TypeSignature Language="C#" Value="public class HDInsightOnDemandLinkedService : Azure.ResourceManager.DataFactory.Models.DataFactoryLinkedServiceProperties, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HDInsightOnDemandLinkedService extends Azure.ResourceManager.DataFactory.Models.DataFactoryLinkedServiceProperties implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class HDInsightOnDemandLinkedService : Azure.ResourceManager.DataFactory.Models.DataFactoryLinkedServiceProperties, System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HDInsightOnDemandLinkedService extends Azure.ResourceManager.DataFactory.Models.DataFactoryLinkedServiceProperties implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService" />
-  <TypeSignature Language="VB.NET" Value="Public Class HDInsightOnDemandLinkedService&#xA;Inherits DataFactoryLinkedServiceProperties&#xA;Implements IJsonModel(Of HDInsightOnDemandLinkedService), IPersistableModel(Of HDInsightOnDemandLinkedService)" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type HDInsightOnDemandLinkedService = class&#xA;    inherit DataFactoryLinkedServiceProperties&#xA;    interface IJsonModel&lt;HDInsightOnDemandLinkedService&gt;&#xA;    interface IPersistableModel&lt;HDInsightOnDemandLinkedService&gt;" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class HDInsightOnDemandLinkedService : Azure.ResourceManager.DataFactory.Models.DataFactoryLinkedServiceProperties" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HDInsightOnDemandLinkedService extends Azure.ResourceManager.DataFactory.Models.DataFactoryLinkedServiceProperties" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class HDInsightOnDemandLinkedService&#xA;Inherits DataFactoryLinkedServiceProperties" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type HDInsightOnDemandLinkedService = class&#xA;    inherit DataFactoryLinkedServiceProperties" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class HDInsightOnDemandLinkedService&#xA;Inherits DataFactoryLinkedServiceProperties&#xA;Implements IJsonModel(Of HDInsightOnDemandLinkedService), IPersistableModel(Of HDInsightOnDemandLinkedService)" />
+  <TypeSignature Language="F#" Value="type HDInsightOnDemandLinkedService = class&#xA;    inherit DataFactoryLinkedServiceProperties&#xA;    interface IJsonModel&lt;HDInsightOnDemandLinkedService&gt;&#xA;    interface IPersistableModel&lt;HDInsightOnDemandLinkedService&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.DataFactory.Models.DataFactoryLinkedServiceProperties</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="azure-dotnet">
+    <Interface>
       <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
@@ -41,6 +38,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="clusterSize" Type="Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.Int32&gt;" />
@@ -75,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Core.Expressions.DataFactory.DataFactoryLinkedServiceReference&gt;</ReturnType>
@@ -95,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -106,23 +106,19 @@
       </Docs>
     </Member>
     <Member MemberName="ClusterPassword">
-      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterPassword { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterPassword" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterPassword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterPassword" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterPassword" />
-      <MemberSignature Language="VB.NET" Value="Public Property ClusterPassword As DataFactorySecret" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ClusterPassword : Azure.Core.Expressions.DataFactory.DataFactorySecret with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterPassword" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition ClusterPassword { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition ClusterPassword" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property ClusterPassword As DataFactorySecretBaseDefinition" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ClusterPassword : Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterPassword" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterPassword As DataFactorySecret" />
+      <MemberSignature Language="F#" Value="member this.ClusterPassword : Azure.Core.Expressions.DataFactory.DataFactorySecret with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterPassword" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.Expressions.DataFactory.DataFactorySecret</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition</ReturnType>
+        <ReturnType>Azure.Core.Expressions.DataFactory.DataFactorySecret</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The password to access the cluster. </summary>
@@ -140,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -160,6 +157,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.Int32&gt;</ReturnType>
@@ -171,23 +169,19 @@
       </Docs>
     </Member>
     <Member MemberName="ClusterSshPassword">
-      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterSshPassword { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterSshPassword" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterSshPassword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecret ClusterSshPassword" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterSshPassword" />
-      <MemberSignature Language="VB.NET" Value="Public Property ClusterSshPassword As DataFactorySecret" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ClusterSshPassword : Azure.Core.Expressions.DataFactory.DataFactorySecret with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterSshPassword" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition ClusterSshPassword { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition ClusterSshPassword" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property ClusterSshPassword As DataFactorySecretBaseDefinition" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ClusterSshPassword : Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterSshPassword" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClusterSshPassword As DataFactorySecret" />
+      <MemberSignature Language="F#" Value="member this.ClusterSshPassword : Azure.Core.Expressions.DataFactory.DataFactorySecret with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ClusterSshPassword" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.Expressions.DataFactory.DataFactorySecret</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition</ReturnType>
+        <ReturnType>Azure.Core.Expressions.DataFactory.DataFactorySecret</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The password to SSH remotely connect cluster’s node (for Linux). </summary>
@@ -205,6 +199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -225,6 +220,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -245,6 +241,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -265,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -293,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataFactory.Models.DataFactoryCredentialReference</ReturnType>
@@ -313,6 +312,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -341,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -361,6 +362,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -389,6 +391,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryLinkedServiceReference</ReturnType>
@@ -409,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -437,6 +441,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -465,6 +470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -493,6 +499,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -513,6 +520,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryLinkedServiceReference</ReturnType>
@@ -533,6 +541,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -561,6 +570,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -589,6 +599,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.DataFactory.Models.DataFactoryScriptAction&gt;</ReturnType>
@@ -609,6 +620,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -620,23 +632,19 @@
       </Docs>
     </Member>
     <Member MemberName="ServicePrincipalKey">
-      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecret ServicePrincipalKey { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecret ServicePrincipalKey" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecret ServicePrincipalKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecret ServicePrincipalKey" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ServicePrincipalKey" />
-      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalKey As DataFactorySecret" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ServicePrincipalKey : Azure.Core.Expressions.DataFactory.DataFactorySecret with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ServicePrincipalKey" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition ServicePrincipalKey { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition ServicePrincipalKey" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalKey As DataFactorySecretBaseDefinition" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ServicePrincipalKey : Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ServicePrincipalKey" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServicePrincipalKey As DataFactorySecret" />
+      <MemberSignature Language="F#" Value="member this.ServicePrincipalKey : Azure.Core.Expressions.DataFactory.DataFactorySecret with get, set" Usage="Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService.ServicePrincipalKey" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.Expressions.DataFactory.DataFactorySecret</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Core.Expressions.DataFactory.DataFactorySecretBaseDefinition</ReturnType>
+        <ReturnType>Azure.Core.Expressions.DataFactory.DataFactorySecret</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The key for the service principal id. </summary>
@@ -654,6 +662,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -674,6 +683,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -702,6 +712,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -725,13 +736,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
@@ -757,13 +769,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
@@ -788,13 +801,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataFactory.Models.HDInsightOnDemandLinkedService</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
@@ -820,12 +834,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">To be added.</param>
@@ -849,12 +864,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
       </Parameters>
       <Docs>
         <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
@@ -876,6 +892,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -896,6 +913,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -916,6 +934,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -936,6 +955,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Expressions.DataFactory.DataFactoryElement&lt;System.String&gt;</ReturnType>
@@ -956,6 +976,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -984,6 +1005,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataFactory</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>

@@ -385,10 +385,10 @@
       children:
       - Azure.AI.Personalizer
     - name: Text Analytics
+      href: ~/api/overview/azure/preview/ai.textanalytics-readme.md
       children:
       - Azure.AI.TextAnalytics
       - Microsoft.Extensions.Azure
-      landingPageType: Service
     - name: Document Translation
       href: ~/api/overview/azure/preview/ai.translation.document-readme.md
       children:
@@ -799,6 +799,18 @@
         children:
         - Azure.ResourceManager.DeploymentManager
         - Azure.ResourceManager.DeploymentManager.Models
+  - name: Desktop Virtualization
+    href: ~/api/overview/azure/preview/desktop-virtualization.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Desktop Virtualization
+        href: ~/api/overview/azure/preview/resourcemanager.desktopvirtualization-readme.md
+        children:
+        - Azure.ResourceManager.DesktopVirtualization
+        - Azure.ResourceManager.DesktopVirtualization.Mocking
+        - Azure.ResourceManager.DesktopVirtualization.Models
   - name: Dev Center
     href: ~/api/overview/azure/preview/dev-center.md
     landingPageType: Service
@@ -809,6 +821,14 @@
       - Azure.Developer.DevCenter
       - Azure.Developer.DevCenter.Models
       - Microsoft.Extensions.Azure
+    - name: Management
+      items:
+      - name: Resource Management - Dev Center
+        href: ~/api/overview/azure/preview/resourcemanager.devcenter-readme.md
+        children:
+        - Azure.ResourceManager.DevCenter
+        - Azure.ResourceManager.DevCenter.Mocking
+        - Azure.ResourceManager.DevCenter.Models
   - name: Dev Spaces
     href: ~/api/overview/azure/preview/dev-spaces.md
     landingPageType: Service
@@ -1511,6 +1531,16 @@
       - Microsoft.Azure.Media.LiveVideoAnalytics.Edge
       - Microsoft.Azure.Media.LiveVideoAnalytics.Edge.Models
       landingPageType: Service
+  - name: Metrics Advisor
+    href: ~/api/overview/azure/preview/metrics-advisor.md
+    landingPageType: Service
+    items:
+    - name: Metrics Advisor
+      href: ~/api/overview/azure/preview/ai.metricsadvisor-readme.md
+      children:
+      - Azure.AI.MetricsAdvisor
+      - Azure.AI.MetricsAdvisor.Administration
+      - Azure.AI.MetricsAdvisor.Models
   - name: Migration
     href: ~/api/overview/azure/preview/migration.md
     landingPageType: Service
@@ -1527,6 +1557,10 @@
     href: ~/api/overview/azure/preview/mixed-reality.md
     landingPageType: Service
     items:
+    - name: Mixed Reality Authentication
+      href: ~/api/overview/azure/preview/mixedreality.authentication-readme.md
+      children:
+      - Azure.MixedReality.Authentication
     - name: Azure Object Anchors Conversion
       href: ~/api/overview/azure/preview/mixedreality.objectanchors.conversion-readme.md
       children:
@@ -1539,6 +1573,18 @@
         - Azure.ResourceManager.MixedReality
         - Azure.ResourceManager.MixedReality.Mocking
         - Azure.ResourceManager.MixedReality.Models
+  - name: Mobile Network
+    href: ~/api/overview/azure/preview/mobile-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mobile Network
+        href: ~/api/overview/azure/preview/resourcemanager.mobilenetwork-readme.md
+        children:
+        - Azure.ResourceManager.MobileNetwork
+        - Azure.ResourceManager.MobileNetwork.Mocking
+        - Azure.ResourceManager.MobileNetwork.Models
   - name: Monitor
     href: ~/api/overview/azure/preview/monitor.md
     landingPageType: Service
@@ -2067,6 +2113,10 @@
       children:
       - Azure.Data.SchemaRegistry
       - Azure.Data.SchemaRegistry.Serialization
+    - name: Schema Registry - Avro
+      href: ~/api/overview/azure/preview/microsoft.azure.data.schemaregistry.apacheavro-readme.md
+      children:
+      - Microsoft.Azure.Data.SchemaRegistry.ApacheAvro
   - name: ScVmm
     href: ~/api/overview/azure/preview/scvmm.md
     landingPageType: Service
@@ -2503,20 +2553,20 @@
     landingPageType: Service
     items:
     - name: Web PubSub
+      href: ~/api/overview/azure/preview/messaging.webpubsub-readme.md
       children:
       - Azure.Messaging.WebPubSub
       - Microsoft.Extensions.Azure
-      landingPageType: Service
     - name: Web PubSub Client
       href: ~/api/overview/azure/preview/messaging.webpubsub.client-readme.md
       children:
       - Azure.Messaging.WebPubSub.Clients
     - name: Microsoft.Azure.WebPubSub.AspNetCore
+      href: ~/api/overview/azure/preview/microsoft.azure.webpubsub.aspnetcore-readme.md
       children:
       - Microsoft.AspNetCore.Builder
       - Microsoft.Azure.WebPubSub.AspNetCore
       - Microsoft.Extensions.DependencyInjection
-      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Web PubSub
